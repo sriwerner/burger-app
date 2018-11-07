@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Burger from "../../components/Burger/Burger";
 
-class BurguerBuilder extends Component {
+class BurgerBuilder extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -8,11 +9,11 @@ class BurguerBuilder extends Component {
     render() { 
         return (
         <>
-            <div>Burguer</div>
+            <Burger />
             <div>Build Controls</div>
         </>
     );
     }
 }
  
-export default BurguerBuilder;
+export default BurgerBuilder;
