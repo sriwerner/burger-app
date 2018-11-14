@@ -8,8 +8,8 @@ class Modal extends Component {
         // return true;
     }
 
-    componentDidUpdate(prevProps, prevState) {
-        console.log('[Modal] WillUpdate');
+    componentDidUpdate() {
+        console.log('[Modal] DidUpdate');
     }
     
     render() { 
